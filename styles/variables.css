@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --PressStart2P: 'PressStart2P';
+  --Inter: 'Inter';
+  --main-weight: 400;
+  --accent-weight: 785;
+  --main-font-weight: 'wght' var(--main-weight);
+  --accent-font-weight: 'wght' var(--accent-weight);
+  --border-color: rgba(0, 0, 0, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --background-image: 
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --car-image: url(../images/car.png);
+  --label-stroke-color: rgba(255, 255, 255, 1);
+  --label-background-color: rgba(0, 0, 0, 1);
+  --width-clamp: clamp(23.438rem, 16.373rem + 30.141vw, 43.5rem);
+  --logo-font-clamp: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  --header-title-clamp: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
+  --content-padding-clamp: clamp(1.25rem, 0.965rem + 1.268vw, 1.563rem);
+  --text-font-clamp: clamp(1rem, 0.92rem + 0.38vw, 1.125rem);
+  --button-width-clamp: clamp(18.75rem, 12.945rem + 28.986vw, 21.25rem);
+  --contour-color: rgba(0, 0, 0, 1);
+  --animation-fill-color: rgba(255, 0, 0, 1);
+}
